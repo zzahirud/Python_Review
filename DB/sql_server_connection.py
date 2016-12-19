@@ -9,11 +9,7 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-def main():
-    pass
 
-if __name__ == '__main__':
-    main()
 
 import pyodbc
 
