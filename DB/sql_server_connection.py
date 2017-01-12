@@ -9,11 +9,7 @@
 # Licence:     <your licence>
 #-------------------------------------------------------------------------------
 
-def main():
-    pass
 
-if __name__ == '__main__':
-    main()
 
 import pyodbc
 
@@ -27,7 +23,7 @@ cnxn = pyodbc.connect(r'DRIVER={SQL Server};SERVER=LTZUBAIRZ\SQLEXPRESS;DATABASE
 cursor = cnxn.cursor()
 
 cursor.execute('''
-SELECT * FROM PATIENTS''')
+SELECT * FROM TABLE''')
 
 row = cursor.fetchall();
 
