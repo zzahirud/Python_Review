@@ -1,0 +1,4 @@
+#linear search
+
+
+#binary search
