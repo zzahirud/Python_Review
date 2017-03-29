@@ -12,7 +12,7 @@ print maximum(list)
 
 #find key with the most occurance in a sentence
 
-sentence = "Tomorrow is my Facebookkkkkk interview"
+sentence = "Tomorrow is my googlekkkkkk interview"
 def max_key(sentence):
     results = {}
     for item in sentence:
