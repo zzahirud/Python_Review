@@ -7,3 +7,5 @@ def reverse(name):
     else:
         return name[len(name)-1] + reverse(name[:-1])
 print reverse(name)
+
+# use cases
