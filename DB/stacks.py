@@ -27,3 +27,15 @@ s.push('true')
 print(s.pop())
 
 print(s.items)
+
+#Write a function revstring(mystr) that uses a stack to reverse the characters in a string.
+
+def revstring(mystr):
+    s = Stack()
+    s.items = list(mystr);
+    rev = ""
+    while not s.isEmpty():
+        rev =  rev + (s.peek())
+        s.pop()
+    return  rev
+print(revstring("zubair"))
