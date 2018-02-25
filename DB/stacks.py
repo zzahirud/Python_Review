@@ -49,6 +49,9 @@ print(revstring("zubair"))
 #Use a stack when you want to get things out in the reverse order than you put them in.
 #Use a list when you want to get anything out, regardless of when you put them in (and when you don't want them to automatically be removed).
 
+# the last opening bracket, is the first to be taken out to balance - so use a stack items for open brackets, as soon as you see
+# closing bracket, pop the bracket.
+
 def parChecker(symbolString):
     s = Stack()
     balanced = True
